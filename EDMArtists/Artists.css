@@ -1,0 +1,7 @@
+  .fourgrid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    column-gap: 3vw;
+    padding: 2vw;
+    }
