@@ -8,6 +8,7 @@ h1{
     text-align: center;
     background-color: #ff5757;
     color: #ffafbf;
+}
 .fourgrid {
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
