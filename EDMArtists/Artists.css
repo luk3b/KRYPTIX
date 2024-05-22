@@ -1,13 +1,14 @@
 body{
     text-align: center;
-    color: #ffafbf;
-    font-size: 20px;
+    color: #9D00FF;
+    background-color: black;
+    font-size: 1.6em;
     font-family: sans-serif;
 }
 h1{
     text-align: center;
-    background-color: #ff5757;
-    color: #ffafbf;
+    background-color: black;
+    color: #9D00FF;
 }
 .fourgrid {
     display: grid;
