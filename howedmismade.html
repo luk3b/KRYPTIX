@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<title>About page</title>
+<link rel="stylesheet" href="About/About.css">
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
+  
+</head>
+<body>
+             <article>
+                <h1>About Website</h1>
+                <h5>
+                EDM is music that is made with tools like "samplers, synthesizers, effects units and MIDI controllers".<br>
+                These help EDM artists create cool beats and rhythms that eventually get turned into music, <br>
+                but in the 80's it was mostly "manipulating MIDI data". Its much easier though to create music <br>
+                with better technology that allows EDM artists to create music at a much faster rate. <br> 
+                </h5>
+            </article>
+<p>Click here to go back home</p>
+<a href="index.html" class="btn">Home</a> 
+  
+<p>
+VERIFY WEBSITE ON:
+</p>
+<p>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</p>
+   </body>
+   </html>
