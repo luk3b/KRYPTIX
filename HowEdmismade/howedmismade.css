@@ -17,3 +17,15 @@ h1{
   border: solid black 1px;
   padding: 2px;
 }
+.btn {
+    background-color: black;
+    color: #9D00FF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 25px;
+    margin: 5px;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: purple;
+}
