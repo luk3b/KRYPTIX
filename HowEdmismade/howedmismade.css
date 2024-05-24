@@ -1,1 +1,7 @@
-
+.float-img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding: 2px;
+}
