@@ -1,3 +1,15 @@
+body{
+    text-align: left;
+    color: #9D00FF;
+    background-color: black;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+h1{
+    text-align: left;
+    background-color: black;
+    color: #9D00FF;
+
 .float-img {
   float: left;
   margin-right: 10px;
