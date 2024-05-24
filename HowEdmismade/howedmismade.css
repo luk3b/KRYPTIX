@@ -1,6 +1,6 @@
 body{
     text-align: left;
-    color: #9D00FF;
+    color: #4D4DFF;
     background-color: black;
     font-size: 1.6em;
     font-family: sans-serif;
@@ -8,7 +8,7 @@ body{
 h1{
     text-align: left;
     background-color: black;
-    color: #9D00FF;
+    color: #4D4DFF;
 
 .float-img {
   float: left;
@@ -19,7 +19,7 @@ h1{
 }
 .btn {
     background-color: black;
-    color: #9D00FF;
+    color: #4D4DFF;
     text-align: left;
     text-decoration: none;
     padding: 14px 25px;
@@ -27,5 +27,5 @@ h1{
     display: inline-block;
 }
 .btn:hover {
-    background-color: purple;
+    background-color: blue;
 }
