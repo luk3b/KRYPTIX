@@ -1,1 +1,31 @@
-
+body{
+    text-align: center;
+    color: #9D00FF;
+    background-color: black;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+ .grid{
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: auto;
+  column-gap: 15vw;
+  padding: 2vw;
+  }
+h1{
+    text-align: center;
+    background-color: black;
+    color: #9D00FF;
+}
+.btn {
+    background-color: black;
+    color: #9D00FF;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 25px;
+    margin: 5px;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: purple;
+}
